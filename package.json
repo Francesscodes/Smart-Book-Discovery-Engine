@@ -1,0 +1,18 @@
+{
+  "name": "smart-book-discovery",
+  "version": "1.0.0",
+  "description": "Smart Book Discovery Engine — deterministic recommendation system for a library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "recommend": "node test-recommendations.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "express": "^4.22.1",
+    "mysql2": "^3.9.4"
+  }
+}

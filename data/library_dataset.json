@@ -1,0 +1,98 @@
+{
+  "books": [
+    { "book_id": "B001", "title": "Clean Code", "author": "Robert C. Martin", "dewey_decimal": "005.1" },
+    { "book_id": "B002", "title": "The Pragmatic Programmer", "author": "Andrew Hunt", "dewey_decimal": "005.1" },
+    { "book_id": "B003", "title": "Introduction to Algorithms", "author": "Thomas H. Cormen", "dewey_decimal": "005.1" },
+    { "book_id": "B004", "title": "Deep Work", "author": "Cal Newport", "dewey_decimal": "158.1" },
+    { "book_id": "B005", "title": "Atomic Habits", "author": "James Clear", "dewey_decimal": "158.1" },
+    { "book_id": "B006", "title": "The Lean Startup", "author": "Eric Ries", "dewey_decimal": "658.1" },
+    { "book_id": "B007", "title": "Zero to One", "author": "Peter Thiel", "dewey_decimal": "658.1" },
+    { "book_id": "B008", "title": "Sapiens", "author": "Yuval Noah Harari", "dewey_decimal": "909" },
+    { "book_id": "B009", "title": "Educated", "author": "Tara Westover", "dewey_decimal": "921" },
+    { "book_id": "B010", "title": "The Psychology of Money", "author": "Morgan Housel", "dewey_decimal": "332.4" },
+    { "book_id": "B011", "title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "dewey_decimal": "332.4" },
+    { "book_id": "B012", "title": "Thinking, Fast and Slow", "author": "Daniel Kahneman", "dewey_decimal": "153.4" },
+    { "book_id": "B013", "title": "Start With Why", "author": "Simon Sinek", "dewey_decimal": "658.4" },
+    { "book_id": "B014", "title": "The Design of Everyday Things", "author": "Don Norman", "dewey_decimal": "745.4" },
+    { "book_id": "B015", "title": "Hooked", "author": "Nir Eyal", "dewey_decimal": "658.8" },
+    { "book_id": "B016", "title": "The Subtle Art of Not Giving a F*ck", "author": "Mark Manson", "dewey_decimal": "158.1" },
+    { "book_id": "B017", "title": "Outliers", "author": "Malcolm Gladwell", "dewey_decimal": "302" },
+    { "book_id": "B018", "title": "Grit", "author": "Angela Duckworth", "dewey_decimal": "155.2" },
+    { "book_id": "B019", "title": "The Innovator's Dilemma", "author": "Clayton Christensen", "dewey_decimal": "658.4" },
+    { "book_id": "B020", "title": "Rework", "author": "Jason Fried", "dewey_decimal": "658.1" }
+  ],
+
+  "users": [
+    { "user_id": "U001", "name": "Amaka Okoro" },
+    { "user_id": "U002", "name": "Tunde Balogun" },
+    { "user_id": "U003", "name": "Chioma Nwosu" },
+    { "user_id": "U004", "name": "David Ibrahim" },
+    { "user_id": "U005", "name": "Fatima Yusuf" },
+    { "user_id": "U006", "name": "Emeka Obi" },
+    { "user_id": "U007", "name": "Blessing Eze" },
+    { "user_id": "U008", "name": "Samuel Ade" },
+    { "user_id": "U009", "name": "Grace Udo" },
+    { "user_id": "U010", "name": "Ibrahim Musa" }
+  ],
+
+  "loans": [
+    { "loan_id": "L001", "user_id": "U001", "book_id": "B001", "borrowed_at": "2025-01-02" },
+    { "loan_id": "L002", "user_id": "U001", "book_id": "B002", "borrowed_at": "2025-01-05" },
+    { "loan_id": "L003", "user_id": "U001", "book_id": "B003", "borrowed_at": "2025-01-10" },
+    { "loan_id": "L004", "user_id": "U001", "book_id": "B004", "borrowed_at": "2025-01-12" },
+    { "loan_id": "L005", "user_id": "U001", "book_id": "B005", "borrowed_at": "2025-01-15" },
+    { "loan_id": "L006", "user_id": "U001", "book_id": "B006", "borrowed_at": "2025-01-18" },
+    { "loan_id": "L007", "user_id": "U001", "book_id": "B007", "borrowed_at": "2025-01-22" },
+
+    { "loan_id": "L008", "user_id": "U002", "book_id": "B001", "borrowed_at": "2025-01-03" },
+    { "loan_id": "L009", "user_id": "U002", "book_id": "B002", "borrowed_at": "2025-01-06" },
+    { "loan_id": "L010", "user_id": "U002", "book_id": "B003", "borrowed_at": "2025-01-11" },
+    { "loan_id": "L011", "user_id": "U002", "book_id": "B004", "borrowed_at": "2025-01-13" },
+    { "loan_id": "L012", "user_id": "U002", "book_id": "B006", "borrowed_at": "2025-01-19" },
+    { "loan_id": "L013", "user_id": "U002", "book_id": "B007", "borrowed_at": "2025-01-23" },
+    { "loan_id": "L014", "user_id": "U002", "book_id": "B020", "borrowed_at": "2025-01-25" },
+
+    { "loan_id": "L015", "user_id": "U003", "book_id": "B001", "borrowed_at": "2025-01-04" },
+    { "loan_id": "L016", "user_id": "U003", "book_id": "B002", "borrowed_at": "2025-01-07" },
+    { "loan_id": "L017", "user_id": "U003", "book_id": "B003", "borrowed_at": "2025-01-09" },
+    { "loan_id": "L018", "user_id": "U003", "book_id": "B005", "borrowed_at": "2025-01-14" },
+    { "loan_id": "L019", "user_id": "U003", "book_id": "B006", "borrowed_at": "2025-01-20" },
+    { "loan_id": "L020", "user_id": "U003", "book_id": "B007", "borrowed_at": "2025-01-24" },
+    { "loan_id": "L021", "user_id": "U003", "book_id": "B013", "borrowed_at": "2025-01-27" },
+
+    { "loan_id": "L022", "user_id": "U004", "book_id": "B008", "borrowed_at": "2025-02-01" },
+    { "loan_id": "L023", "user_id": "U004", "book_id": "B009", "borrowed_at": "2025-02-05" },
+    { "loan_id": "L024", "user_id": "U004", "book_id": "B017", "borrowed_at": "2025-02-08" },
+    { "loan_id": "L025", "user_id": "U004", "book_id": "B012", "borrowed_at": "2025-02-10" },
+    { "loan_id": "L026", "user_id": "U004", "book_id": "B018", "borrowed_at": "2025-02-12" },
+
+    { "loan_id": "L027", "user_id": "U005", "book_id": "B010", "borrowed_at": "2025-02-02" },
+    { "loan_id": "L028", "user_id": "U005", "book_id": "B011", "borrowed_at": "2025-02-06" },
+    { "loan_id": "L029", "user_id": "U005", "book_id": "B012", "borrowed_at": "2025-02-09" },
+    { "loan_id": "L030", "user_id": "U005", "book_id": "B013", "borrowed_at": "2025-02-11" },
+    { "loan_id": "L031", "user_id": "U005", "book_id": "B019", "borrowed_at": "2025-02-14" },
+
+    { "loan_id": "L032", "user_id": "U006", "book_id": "B014", "borrowed_at": "2025-02-03" },
+    { "loan_id": "L033", "user_id": "U006", "book_id": "B015", "borrowed_at": "2025-02-07" },
+    { "loan_id": "L034", "user_id": "U006", "book_id": "B016", "borrowed_at": "2025-02-13" },
+    { "loan_id": "L035", "user_id": "U006", "book_id": "B004", "borrowed_at": "2025-02-16" },
+    { "loan_id": "L036", "user_id": "U006", "book_id": "B018", "borrowed_at": "2025-02-20" },
+
+    { "loan_id": "L037", "user_id": "U007", "book_id": "B005", "borrowed_at": "2025-02-04" },
+    { "loan_id": "L038", "user_id": "U007", "book_id": "B016", "borrowed_at": "2025-02-08" },
+    { "loan_id": "L039", "user_id": "U007", "book_id": "B017", "borrowed_at": "2025-02-12" },
+    { "loan_id": "L040", "user_id": "U007", "book_id": "B018", "borrowed_at": "2025-02-15" },
+    { "loan_id": "L041", "user_id": "U007", "book_id": "B004", "borrowed_at": "2025-02-18" },
+
+    { "loan_id": "L042", "user_id": "U008", "book_id": "B006", "borrowed_at": "2025-02-05" },
+    { "loan_id": "L043", "user_id": "U008", "book_id": "B007", "borrowed_at": "2025-02-09" },
+    { "loan_id": "L044", "user_id": "U008", "book_id": "B019", "borrowed_at": "2025-02-12" },
+    { "loan_id": "L045", "user_id": "U008", "book_id": "B020", "borrowed_at": "2025-02-17" },
+    { "loan_id": "L046", "user_id": "U008", "book_id": "B013", "borrowed_at": "2025-02-21" },
+
+    { "loan_id": "L047", "user_id": "U009", "book_id": "B008", "borrowed_at": "2025-02-06" },
+    { "loan_id": "L048", "user_id": "U009", "book_id": "B009", "borrowed_at": "2025-02-10" },
+    { "loan_id": "L049", "user_id": "U009", "book_id": "B017", "borrowed_at": "2025-02-14" },
+    { "loan_id": "L050", "user_id": "U010", "book_id": "B010", "borrowed_at": "2025-02-22" }
+  ]
+}
